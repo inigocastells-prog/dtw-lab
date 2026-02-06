@@ -1,0 +1,25 @@
+[project]
+name = "dtw-lab"
+version = "0.1.0"
+description = "Digital Transformation Workshops lab"
+authors = [{ name = "Enrique Alejo", email = "enrique.m.alejo@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "seaborn>=0.13.2,<0.14.0",
+    "matplotlib>=3.9.0,<4.0.0",
+    "pandas>=2.2.3,<3.0.0",
+    "scikit-learn>=1.6.0,<2.0.0",
+    "requests>=2.32.3,<3.0.0",
+]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
