@@ -1,0 +1,9 @@
+LICENSE.md
+pyproject.toml
+src/dtw_lab/__init__.py
+src/dtw_lab/lab1.py
+src/dtw_lab.egg-info/PKG-INFO
+src/dtw_lab.egg-info/SOURCES.txt
+src/dtw_lab.egg-info/dependency_links.txt
+src/dtw_lab.egg-info/requires.txt
+src/dtw_lab.egg-info/top_level.txt
