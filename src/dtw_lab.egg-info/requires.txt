@@ -3,3 +3,8 @@ matplotlib<4.0.0,>=3.9.0
 pandas<3.0.0,>=2.2.3
 scikit-learn<2.0.0,>=1.6.0
 requests<3.0.0,>=2.32.3
+uvicorn>=0.41.0
+fastapi>=0.133.1
+pytest==9.0.2
+pytest-mock==3.15.1
+toml>=0.10.2
