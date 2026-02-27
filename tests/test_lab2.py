@@ -27,16 +27,3 @@ def test_encode_categorical_vars():
     assert encoded["Discharge_Speed"].iloc[1] == 3
 
 
-
-def test_api_call(mocker):
-    # Setup the mock
-    mock_get = mocker.patch('mymodule.requests.get')
-    mock_get.return_value.json.return_value = {'data': 'fake_response'}
-
-    # Run the function
-    result = my_function_that_calls_api()
-
-    # Assertions
-    assert result == 'fake_response'
-    assert mock_get.called
-    mock_get.assert_called_once() # Can use more specific assertions
