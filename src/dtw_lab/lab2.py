@@ -143,3 +143,7 @@ def get_visualization_version():
         raise HTTPException(status_code=500, detail="Version not found in pyproject.toml")
 
     return {"version": version}
+
+@app.get("/version")
+def test():
+    return {"Hello world"}
