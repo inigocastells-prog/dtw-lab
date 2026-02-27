@@ -1,3 +1,0 @@
-[console_scripts]
-start-server = dtw_lab.lab2:run_server_prod
-start-server-dev = dtw_lab.lab2:run_server_dev
